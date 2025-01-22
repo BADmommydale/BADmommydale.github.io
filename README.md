@@ -11,8 +11,10 @@ I am currently a stay-at-home mom.  I have a degree in History from Texas A&M Un
 
 ## My Interests
 * Cooking
-*  Reading
-* Crochet ![crochet LovieBear](LovieBearSmall.png)  
+* Reading
+* Crochet
+
+  ![crochet LovieBear](LovieBearSmall.png)  
   ![crochet LovieBlanket](LovieBlanket.png)   
   I knew I had become an expert at crochet when I designed my own creation.  This is a LovieBear that is a small pentagon blanket that can be used as a stuffed animal when folded.  
     
