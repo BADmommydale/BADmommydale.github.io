@@ -10,7 +10,7 @@ This repository is for my assignments in my CTI 110 class.
 I am currently a stay-at-home mom.  I have a degree in History from Texas A&M University and an MBA from the University of Phoenix.  
 
 ## My Interests
-* Crochet ![crochet LovieBear](LovieCrochet.jpg){width=200}
+* Crochet ![crochet LovieBear](LovieCrochet.jpg){width=100}
 * Cooking 
 * Reading
    
