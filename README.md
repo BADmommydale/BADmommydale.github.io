@@ -10,10 +10,12 @@ This repository is for my assignments in my CTI 110 class.
 I am currently a stay-at-home mom.  I have a degree in History from Texas A&M University and an MBA from the University of Phoenix.  
 
 ## My Interests
+* Cooking
+*  Reading
 * Crochet ![crochet LovieBear](LovieBearSmall.png)
-* Cooking 
-* Reading
-   
+  ![crochet LovieBlanket](LovieBlanket.png)   
+  I knew I had become an expert at crochet when I designed my own creation.  This is a LovieBear that is a small pentagon blanket that can be used as a stuffed animal when folded.  
+    
 ## Websites I Recommend
   - [DaleLicious](https://cultivatinghealthyhabits.blogspot.com/) - I have made a site for all my recipes.
     - There are no ADs to get in the way.
