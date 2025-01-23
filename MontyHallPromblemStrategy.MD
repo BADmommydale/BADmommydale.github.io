@@ -17,8 +17,8 @@ flowchart TD
     O --> Q("Switch")
     P ==> R("**Prize**")
     Q --> S("empty")
-    U["Host"] -- an empty --> T
-    T --> Y["Switch"] & V["Stay"]
+    U["Host"] -- opens empty --> T
+    T --> V["Stay"] & Y["Switch"] 
     Y --> W["Win 2/3"] & X["Loose 1/3"]
     V --> Z["Win 1/3"] & AA["Loose 2/3"]
     B@{ shape: trap-b}
