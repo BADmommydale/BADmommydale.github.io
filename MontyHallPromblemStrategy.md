@@ -27,8 +27,11 @@ flowchart TD
     C@{ shape: trap-t}
     E@{ shape: lean-r}
     H@{ shape: hex}
-    style B fill:#E1BEE7
+    style B fill:#E1BEE7, stroke-width:4px,stroke-dasharray: 0
     style C fill:#BBDEFB
+    style D fill:#E1BEE7, stroke-width:4px,stroke-dasharray: 0
+    style G fill:#E1BEE7, stroke-width:4px,stroke-dasharray: 0
+    style H fill:#E1BEE7
     style I color:#000000,fill:#FF6D00
     style N color:#000000,fill:#2962FF
     style S color:#000000,fill:#AA00FF
