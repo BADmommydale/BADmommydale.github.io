@@ -1,12 +1,13 @@
 ```mermaid
 flowchart TD
     B["Contestant"] --> D["Pick a door"]
-    C["Host"] -- opens empty --> E["Door revealed"]
+    C["Host"] -- opens an empty door --> E["Door revealed"]
     D --> E
-    E --> F["Stay"]
-    E ==> G["Switch"]
+    C --Asks--> AB
+    E --> AB["Stay or Switch"]
+    AB ==> G["Switch"]
     B ---o H["Strategy"]
-    H -.- E
+    H -.- AB
     H --> I("Door 1 (empty)") & N("Door 2 (empty)") & S("Door 3 (Prize)")
     I --> J("Stay")
     I ==> K("**Switch**")
@@ -20,9 +21,7 @@ flowchart TD
     S --> U("Switch")
     T ==> V("**Prize**")
     U --> W("empty")
-    F --> X["Win 1/3"] & Y["Loose 2/3"]
     G ==> Z["**Win 2/3**"]
-    G --> AA["Loose 1/3"]
     A>"Play the Monty Hall Problem"]
     B@{ shape: trap-b}
     C@{ shape: trap-t}
@@ -45,7 +44,5 @@ flowchart TD
     style U fill:#FFD600
     style V fill:#00C853,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
     style W fill:#D50000
-    style Y fill:#D50000,color:#FFFFFF,stroke-width:1px,stroke-dasharray: 0,stroke:#000000
     style Z fill:#00C853,color:#FFFFFF,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
-    style AA fill:#FFFFFF,color:#000000
 ```
