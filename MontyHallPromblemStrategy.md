@@ -1,10 +1,10 @@
 ```mermaid
 flowchart TD
-    B["Contestant"] --> D["Pick a door"]
+    B["Contestant"] ==> D["Pick a door"]
     C["Host"] -- opens an empty door --> E["Door revealed"]
-    D --> E
+    D ---o E
     C --Asks--> AB
-    E --> AB["Stay or Switch"]
+    E ---o AB["Stay or Switch"]
     AB ==> G["Switch"]
     B ---o H["Strategy"]
     H -.- AB
