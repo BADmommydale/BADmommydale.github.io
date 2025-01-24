@@ -40,14 +40,13 @@ flowchart TD
     style K fill:#FFD600,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
     style L fill:transparent,stroke:#D50000,color:#D50000
     style M fill:transparent,stroke-width:4px,stroke-dasharray: 0,stroke:#00C853,color:#000000
-    style M fill:#00C853,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
     style O fill:#2962FF
     style P fill:#FFD600,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
-    style Q fill:#D50000
-    style R fill:#00C853,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
+    style Q fill:transparent,stroke:#D50000,color:#D50000
+    style R fill:transparent,stroke-width:4px,stroke-dasharray: 0,stroke:#00C853
     style T fill:#AA00FF,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
     style U fill:#FFD600
-    style V fill:#00C853,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
-    style W fill:#D50000
+    style V fill:transparent,stroke-width:4px,stroke-dasharray: 0,stroke:#00C853
+    style W fill:transparent,stroke:#D50000,color:#D50000
     style Z fill:#00C853,color:#FFFFFF,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
 ```
