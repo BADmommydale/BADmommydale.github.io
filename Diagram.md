@@ -36,8 +36,10 @@ flowchart TD
     style N color:#000000,fill:#2962FF
     style S color:#000000,fill:#AA00FF
     style J fill:#FF6D00
+    style M fill:transparent,stroke-width:4px,stroke-dasharray: 0,stroke:#00C853,color:#000000
     style K fill:#FFD600,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
-    style L fill:#D50000
+    style L fill:transparent,stroke:#D50000,color:#D50000
+    style M fill:transparent,stroke-width:4px,stroke-dasharray: 0,stroke:#00C853,color:#000000
     style M fill:#00C853,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
     style O fill:#2962FF
     style P fill:#FFD600,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
