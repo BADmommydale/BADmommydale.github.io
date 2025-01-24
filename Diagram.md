@@ -6,8 +6,7 @@ flowchart TD
     C --Asks--> AB
     E ---o AB["Stay or Switch"]
     AB ==> G["Switch"]
-    B ---o H["Strategy"]
-    H -.- AB
+    B ---o H["Strategy Planning"]
     H --> I("Door 1 (empty)") & N("Door 2 (empty)") & S("Door 3 (Prize)")
     I --> J("Stay")
     I ==> K("**Switch**")
@@ -21,15 +20,20 @@ flowchart TD
     S --> U("Switch")
     T ==> V("**Prize**")
     U --> W("empty")
+    L & M & Q & R & V & W--> F["Strategy"]
+    F -.- AB
     G ==> Z["**Win 2/3**"]
     A>"Play the Monty Hall Problem"]
     B@{ shape: trap-b}
     C@{ shape: trap-t}
     E@{ shape: lean-r}
+    F@{ shape: hex}
     H@{ shape: hex}
     style B fill:#E1BEE7, stroke-width:4px,stroke-dasharray: 0
-    style C fill:#BBDEFB
+    style C fill:#BBDEFB,stroke:#2962FF,stroke-width:4px,stroke-dasharray: 0
     style D fill:#E1BEE7, stroke-width:4px,stroke-dasharray: 0
+    style E fill:#BBDEFB,stroke:#2962FF,stroke-width:4px,stroke-dasharray: 0
+    style F fill:#E1BEE7
     style G fill:#E1BEE7, stroke-width:4px,stroke-dasharray: 0
     style H fill:#E1BEE7
     style I color:#000000,fill:#FF6D00
@@ -49,4 +53,5 @@ flowchart TD
     style V fill:transparent,stroke-width:4px,stroke-dasharray: 0,stroke:#00C853
     style W fill:transparent,stroke:#D50000,color:#D50000
     style Z fill:#00C853,color:#FFFFFF,stroke-width:4px,stroke-dasharray: 0,stroke:#000000
+    style AB fill:#BBDEFB,stroke:#2962FF,stroke-width:4px,stroke-dasharray: 0
 ```
