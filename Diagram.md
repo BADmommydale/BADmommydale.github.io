@@ -74,7 +74,7 @@ Two people decide to play a game called _Let's Make A Deal_.
         * No skill in picking the first door.
         * Skill is only involved in the strategy for picking the second door.
         * Equivalent to the Host secretly lettering the doors and placing the prize behind Door C.
-       #### Strategy Planning
+#### Strategy Planning
        This is called the **Monty Hall Problem** after the host of the orginal show called _Let's Make a Deal_ back in the 1960s.
        1. Should you stay with your orginal door or switch to a new door?
             * If you randomly Pick **_Door A_**:
