@@ -98,6 +98,7 @@ Two people decide to play a game called _Let's Make A Deal_.
 3. The Host *Asks* if you would like to **Stay or Switch** Doors?
 4. You **Switch** because you are applying the **Monty Hall Problem** strategy from above.
 5. The Host *Opens door* you choose as your final answer.
-6. With the strategy you chose you will **Win 2/3 or lose 1/3** of the time. It is more likely that you won!
+6. With the strategy you chose you will **Win 2/3 or lose 1/3** of the time. 
+    * It is more likely that you won!
 #### REFERENCE
 Solution to the Monty Hall Problem. The Runcible Spoon Society. 2000. http://www.curiouser.co.uk/monty/montyhall2.htm
