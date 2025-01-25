@@ -90,7 +90,7 @@ Two people decide to play a game called _Let's Make A Deal_.
                * If you **Stay** with Door C as your final choice then you **WIN!**
                * If you **Switch** and choose the other Door as your final choice you **Lose**.
         2. The strategy suggests that if you **Switch** doors for your final choice you will **WIN** 2/3 of the time.
-            * You will lose 1/3 of the time you **Stay** with your orginal Door as your final choice.  
+            * You will lose 1/3 of the time if you **Stay** with your orginal Door as your final choice.  
         3. Now you know what strategy you will use when asked if you should **Stay** or **Switch** Doors.
             * **SWITCH!**
 1. **Pick A Door**. This is a random choice since there is no information about the prize location.
