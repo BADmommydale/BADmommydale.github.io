@@ -55,6 +55,6 @@ router.get('/api/grades',function(req, res){
 });
 
 let server = app.listen(3000, function(){
-    console.log("App Server via Express is listening on port 3000");
+    console.log("App Server via Express is listening on local host 3000");
     console.log("To quit, press CTRL + C");
 });
