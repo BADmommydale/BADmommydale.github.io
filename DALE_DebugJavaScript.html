@@ -10,7 +10,7 @@
     <form id="mortgageForm">
         <table>
             <tr>
-                <td><label for="principal">Loan Amount ($):</label></td>
+                <td><label for="principel">Loan Amount ($):</label></td>
                 <td><input type="number" id="principal" required></td>
             </tr>
             <tr>
@@ -47,7 +47,7 @@
             }
 
             const monthlyPayment = (principal * rate * monthlyRate) / (monthlyRate - 1);
-            document.getElementById("result").innerText = `Your monthly payment is $${monthlyPayment.toFixed(2)}`;
+            document.getElementById("result").innerText = 'Your monthly payment is'; $$(monthlyPayment.toFixed(2));
         }
     </script>
 </body>
