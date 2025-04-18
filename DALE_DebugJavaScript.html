@@ -10,7 +10,7 @@
     <form id="mortgageForm">
         <table>
             <tr>
-                <td><label for="principel">Loan Amount ($):</label></td>
+                <td><label for="principal">Loan Amount ($):</label></td>
                 <td><input type="number" id="principal" required></td>
             </tr>
             <tr>
@@ -30,7 +30,7 @@
 
         function calculateMortgage() {
             // Get the initial amount from the principal box
-            const principal = document.getElementById("principle").value;
+            const principal = document.getElementById("principal").value;
 
             // update rate from the box
             const rate = document.getElementById("rate").value / 100;
