@@ -15,13 +15,13 @@ function fetchGradeData(){
 
             }
             // And then call the function to update the HTML with our data
-            populateDALE_Gradebook(JSON.parse(xhr.responseText));
+            populateGradebook(JSON.parse(xhr.responseText));
         }
     }.bind(this);
     xhr.open("get", apiRoute, true);
     xhr.send();
 }
-function populateDALE_Gradebook(data){
+function populateGradebook(data){
     // This function will take the fetched grade data and populate the table
     console.log("Populating gradebook with data:", data);
     let tableElm = document .getElementById("DALE_Gradebook"); // Get the gradebook table element
@@ -50,5 +50,5 @@ function populateDALE_Gradebook(data){
 // TODO: REMOVE THIS
 // Call the stubs to demonstrate the workflow
 const gradeData = fetchGradeData();
-populateDALE_Gradebook(gradeData);
+// populateDALE_Gradebook(gradeData);
 // END REMOVE
