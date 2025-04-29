@@ -4,7 +4,7 @@ function fetchGradeData(){
     // Create a new request for HTTP data
     let xhr = new XMLHttpRequest();
     // This is the address on the machine we're asking for data
-    let apiRout = "/api/grades";
+    let apiRoute = "/api/grades";
     // When the request changes status, we run this anonymous function
     xhr.onreadystatechange = function(){
         let results;
@@ -21,6 +21,7 @@ function fetchGradeData(){
     xhr.open("get", apiRoute, true);
     xhr.send();
 }
+
 function populateGradebook(data){
     // This function will take the fetched grade data and populate the table
     console.log("Populating gradebook with data:", data);
