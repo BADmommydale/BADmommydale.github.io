@@ -15,16 +15,16 @@ function fetchGradeData(){
 
             }
             // And then call the function to update the HTML with our data
-            populateGradebook(JSON.parse(xhr.responseText));
+            populateDALE_Gradebook(JSON.parse(xhr.responseText));
         }
     }.bind(this);
     xhr.open("get", apiRoute, true);
     xhr.send();
 }
-function populateGradebook(data){
+function populateDALE_Gradebook(data){
     // This function will take the fetched grade data and populate the table
     console.log("Populating gradebook with data:", data);
-    let tableElm = document .getElementById("gradebook"); // Get the gradebook table element
+    let tableElm = document .getElementById("DALE_Gradebook"); // Get the gradebook table element
         data.forEach(function(assignment){ // for each row of data we're passed in 
             let row = document.createElement("tr"); // creat a table row element
             let columns = []; // Handy place to stick the columns of information
